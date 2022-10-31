@@ -4,10 +4,32 @@
     "bootstrap": "^5.2.2",
     "connect-session-sequelize": "^7.1.5",
     "dotenv": "^16.0.3",
+    "eslint-config-prettier": "^8.5.0",
     "express": "^4.18.2",
     "express-handlebars": "^6.0.6",
     "express-session": "^1.17.3",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.25.2"
-  }
+    "prettier": "^2.7.1",
+    "sequelize": "^6.25.3"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "quicksave": "git add . && git commit -m \"quicksave\" && git push"
+  },
+  "name": "model-view-controller-mvc-",
+  "description": "Writing about tech can be just as important as making it. Developers spend plenty of time creating new applications and debugging existing codebases, but most developers also spend at least some of their time reading and writing about technical concepts, recent advancements, and new technologies. A simple Google search for any concept covered in this course returns thousands of think pieces and tutorials from developers of all skill levels!",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lynchk07/Model-view-controller-MVC-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lynchk07/Model-view-controller-MVC-/issues"
+  },
+  "homepage": "https://github.com/Lynchk07/Model-view-controller-MVC-#readme"
 }

@@ -54,5 +54,5 @@ User.init(
     modelName: 'user',
   }
 );
-
+// gN0m3c0ntr0113r{twitter005}
 module.exports = User;
